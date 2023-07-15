@@ -1431,7 +1431,7 @@ input::placeholder {
   z-index: -999;
   width: 100%;
   height: 100%;
-  background: url(https://raw.githubusercontent.com/losedMemory/picture/main/background.jpg);
+  background: url(https://raw.githubusercontent.com/losedMemory/picture/main/shine.jpeg);
   background-attachment: local;
   background-position: center;
   background-size: cover;
@@ -3218,7 +3218,7 @@ h1.page-title + .tag-cloud-list {
 }
 #page-header:not(.not-top-img):before {
   position: absolute;
-  width: 100%;
+  width: 0%;
   height: 100%;
   background-color: var(--mark-bg);
   content: '';
@@ -5318,6 +5318,7 @@ blockquote.pullquote.right {
   --mark-bg: rgba(0,0,0,0.6);
 }
 [data-theme='dark'] #web_bg:before {
+  background: url(https://raw.githubusercontent.com/losedMemory/picture/main/background.jpg);
   position: absolute;
   width: 100%;
   height: 100%;
