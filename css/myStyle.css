@@ -75,15 +75,15 @@
 
 /*文章页面*/
 .layout > #post {
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.9);
 }
 
 /*分类页面*/
 .layout > #page {
-  background: rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.8);
 }
 
 /*时间轴页面*/
 .layout > #archive {
-  background: rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.8);
 }
