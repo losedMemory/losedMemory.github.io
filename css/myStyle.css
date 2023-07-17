@@ -133,6 +133,22 @@
   border: var(--border-style);
 }
 
+/* 侧边栏目录最新文章卡片渐变色 */
+#aside-content > .sticky_layout > .card-widget {
+  background-image: linear-gradient(to top, #fdf1ec 0%, #caeaf9 100%);
+}
+
+/* 侧边栏公告栏卡片渐变色 */
+#aside-content > .card-widget.card-announcement {
+  background: linear-gradient(
+    -45deg,
+    rgba(225, 235, 255, 0.6),
+    rgba(225, 235, 255, 0.9),
+    rgba(225, 235, 255, 0.9),
+    rgba(225, 235, 255, 0.6)
+  );
+}
+
 /* 文章页、归档页、普通页面 */
 div#post,
 div#page,
